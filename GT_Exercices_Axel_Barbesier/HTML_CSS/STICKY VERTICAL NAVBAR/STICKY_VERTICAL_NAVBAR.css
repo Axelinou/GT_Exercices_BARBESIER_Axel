@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.Container{
+    display: flex;
+
+    height: 100vh;
+    align-items: center;
+
+}
+
+.Menu_box li {
+    padding: 5px 5px;
+}
+
+.Menu_ul{
+    background-color: gray;
+    width: 100px;
+    position: fixed;
+}
+
+.Ul_settings{
+    list-style-type: none;
+}
