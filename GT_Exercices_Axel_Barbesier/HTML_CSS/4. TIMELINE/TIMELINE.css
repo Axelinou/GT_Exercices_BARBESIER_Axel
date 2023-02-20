@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 2em;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.TIME_LINE {
+    margin: 5em auto;
+    max-width: 34em;
+}
+
+.POINT_CLEF {
+    max-width: 20em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    mso-padding-between : 2em;
+}
+
+.POINT_CLEF h2 {
+    text-align: center;
+}
+
+.POINT_CLEF p {
+    text-align: center;
+}
+
+/*.POINT_CLEF div {
+    padding-bottom: 10em;
+    padding-top: 10em;
+}*/
+
