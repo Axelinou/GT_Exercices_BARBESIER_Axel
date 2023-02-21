@@ -16,6 +16,7 @@ h2 {
 .TIME_LINE {
     margin: 5em auto;
     max-width: 34em;
+    display: table;
 }
 
 .POINT_CLEF {
@@ -36,7 +37,15 @@ h2 {
     text-align: center;
 }
 
-/*.POINT_CLEF div {
+
+/*
+.POINT_CLEF:nth-child(odd) {
+    border-left: 3px solid black;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+
+.POINT_CLEF div {
     padding-bottom: 10em;
     padding-top: 10em;
 }*/
