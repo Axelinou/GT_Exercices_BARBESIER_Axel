@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.SCROLL-FOND {
+    background: #111111;
+    width: 500px;
+    margin: 10% auto;
+    padding: 15px;
+}
+
+.DIV-SCROLLBAR {
+    width: 500px;
+    background: #111111;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.TEXTE {
+    color: #f1f1f1;
+    padding: 20px;
+    font-size: 15px;
+}
