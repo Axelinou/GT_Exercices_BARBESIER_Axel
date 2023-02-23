@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CARDS {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.CARDS-IMG {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.CARDS-IMG img {
+    width: 100%;
+    position: absolute;
+}
+
+.CARDS-BODY {
+    text-align:center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+
+.DATE, .TITRE {
+    text-align:center;
+}
+
+.DATE, .DESCRIPTION {
+    color: black;
+}
