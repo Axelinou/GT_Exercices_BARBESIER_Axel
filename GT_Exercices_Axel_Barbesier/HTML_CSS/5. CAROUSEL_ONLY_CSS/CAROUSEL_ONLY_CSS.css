@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slide {
+    float: left;
+}
+
+.slides {
+    width: calc(1000px * 3);
+    animation: Glissade 10s infinite;
+}
+
+.CAROUSEL {
+    width: 500px;
+    overflow: hidden;
+}
+
+@keyframes Glissade {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-500px);
+    }
+    43% {
+        transform: translateX(-500px);
+    }
+    66% {
+        transform: translateX(-1000px);
+    }
+    73% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
