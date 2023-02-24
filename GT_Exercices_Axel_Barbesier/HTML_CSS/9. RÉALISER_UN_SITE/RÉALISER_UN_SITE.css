@@ -1,0 +1,150 @@
+/*------------------------------------------------------------------------------------------------------------------------
+HEADER NAV BAR */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.LOGO {
+    height: 80px;
+    width: 80px;
+    display: flex;
+}
+.LOGO img{
+    height: 80px;
+    width: 80px;
+    margin: 10px 10px;
+}
+.Banner {
+    display: flex;
+    height: 100px;
+    justify-content:space-between;
+    width: 100%;
+    Background-color: gray;
+    position: fixed;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+.menu li{
+    margin: 0 20px;
+}
+
+.div_menu{
+    display: flex;
+    justify-content: right;
+}
+
+
+/* HEADER NAV BAR
+------------------------------------------------------------------------------------------------------------------------*/
+
+.TITLE-D2 {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding-top: 7em;
+}
+
+.TITLE-D2 h2{
+    font-size: 30px;
+    color: #111111;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+FOOTER */
+
+ul img{
+    max-height: 20px;
+    max-width: 20px;
+}
+
+footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: gray;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    background: black;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/*FOOTER --------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* CARDS --------------------------------------------------------------------------------------------------------------*/
+
+
+.CONTAINER-CARDS {
+    display: flex;
+    justify-content:space-between ;
+}
+
+.CARDS {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.CARDS-IMG {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.CARDS-IMG img {
+    width: 100%;
+    position: absolute;
+}
+
+.CARDS-BODY {
+    text-align:center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+
+.DATE, .TITRE {
+    text-align:center;
+}
+
+.DATE, .DESCRIPTION {
+    color: black;
+}
