@@ -16,12 +16,14 @@ body {
     margin: 10px 10px;
 }
 .Banner {
+    border-bottom: solid;
     display: flex;
     height: 100px;
     justify-content:space-between;
     width: 100%;
     Background-color: gray;
     position: fixed;
+    z-index: 1;
 }
 
 .menu{
@@ -33,6 +35,17 @@ body {
 }
 .menu li{
     margin: 0 20px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid black 2px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    padding: 2px;
 }
 
 .div_menu{
@@ -49,11 +62,16 @@ body {
     justify-content: center;
     display: flex;
     padding-top: 7em;
+    height: 10em;
+    align-items: center;
+    font-family: Brightness, sans-serif;
+
 }
 
 .TITLE-D2 h2{
-    font-size: 30px;
+    font-size: 50px;
     color: #111111;
+    text-decoration: underline;
 }
 
 
@@ -148,3 +166,76 @@ footer {
 .DATE, .DESCRIPTION {
     color: black;
 }
+
+/*CAROUSEL------------------------------------------------------------------------------------------------------------*/
+.container_carousel h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: Brightness, sans-serif;
+}
+
+.container_carousel {
+    justify-content: center;
+    display: flex;
+    height: 30em;
+    align-items: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    flex-direction: column;
+}
+
+.slide {
+    float: left;
+}
+
+.slides {
+    width: calc(1000px * 3);
+    animation: Glissade 10s infinite;
+}
+
+.CAROUSEL {
+    border: solid;
+    width: 500px;
+    overflow: hidden;
+    height: 281px;
+}
+
+@keyframes Glissade {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-500px);
+    }
+    43% {
+        transform: translateX(-500px);
+    }
+    66% {
+        transform: translateX(-1000px);
+    }
+    73% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/*CAROUSEL------------------------------------------------------------------------------------------------------------*/
+
+/*FONT-FAMILY---------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'Brightness';
+    src: url('../Assets/Font/Brightness/Brightness-Regular.eot');
+    src: url('../Assets/Font/Brightness/Brightness-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../Assets/Font/Brightness/Brightness-Regular.woff2') format('woff2'),
+    url('../Assets/Font/Brightness/Brightness-Regular.woff') format('woff'),
+    url('../Assets/Font/Brightness/Brightness-Regular.ttf') format('truetype'),
+    url('../Assets/Font/Brightness/Brightness-Regular.svg#Brightness-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
