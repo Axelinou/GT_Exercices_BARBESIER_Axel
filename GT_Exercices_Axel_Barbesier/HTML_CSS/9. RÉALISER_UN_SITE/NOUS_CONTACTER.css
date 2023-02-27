@@ -1,29 +1,10 @@
+/*------------------------------------------------------------------------------------------------------------------------
+HEADER NAV BAR */
+
 body {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-/*PARAGRAPHE----------------------------------------------------------------------------------------------------------*/
-.container_propos {
-    height: 100%;
-    padding-top: 102px;
-    text-align: center;
-    margin-top: 8em;
-}
-
-.container_propos p {
-    font-family: "Imperial One", sans-serif;
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.container_propos h2 {
-    font-family: Brightness, sans-serif;
-
-}
-/*PARAGRAPHE----------------------------------------------------------------------------------------------------------*/
-
-
-/*BANNER NAV BAR------------------------------------------------------------------------------------------------------*/
 .LOGO {
     height: 80px;
     width: 80px;
@@ -72,9 +53,39 @@ body {
     display: flex;
     justify-content: right;
 }
-/*BANNER NAV BAR------------------------------------------------------------------------------------------------------*/
+/* HEADER NAV BAR
+------------------------------------------------------------------------------------------------------------------------*/
 
-/*FOOTER--------------------------------------------------------------------------------------------------------------*/
+/*NOUS CONTACTEZ--------------------------------------------------------------------------------------------------------*/
+
+.pourquoi {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.container-contactez img {
+    height: 150px;
+    width: 150px;
+}
+
+.container-contactez p {
+    text-align: center;
+    font-family: "Imperial One", sans-serif;
+}
+
+.TITLE-CONTACT {
+    padding-top: 120px;
+    text-align: center;
+    margin: 20px;
+    font-family: Brightness, sans-serif;
+}
+
+/*NOUS CONTACTEZ--------------------------------------------------------------------------------------------------------*/
+
+
+/*FOOTER----------------------------------------------------------------------------------------------------------------*/
 ul img{
     max-height: 20px;
     max-width: 20px;
@@ -118,7 +129,6 @@ footer {
     padding: 15px 0;
     text-align: center;
 }
-
 /*FOOTER--------------------------------------------------------------------------------------------------------------*/
 
 /*FONT-FAMILY---------------------------------------------------------------------------------------------------------*/
@@ -134,6 +144,7 @@ footer {
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Imperial One';
     src: url('../Assets/Font/Imperial/ImperialOne.eot');
@@ -146,5 +157,4 @@ footer {
     font-style: normal;
     font-display: swap;
 }
-
 /*---------------------------------------------------------------------------------------------------------------------*/
