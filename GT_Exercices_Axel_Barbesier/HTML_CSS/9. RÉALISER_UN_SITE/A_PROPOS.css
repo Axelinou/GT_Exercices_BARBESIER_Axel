@@ -1,10 +1,27 @@
-/*------------------------------------------------------------------------------------------------------------------------
-HEADER NAV BAR */
-
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+/*PARAGRAPHE----------------------------------------------------------------------------------------------------------*/
+.container_propos {
+    height: 100%;
+    padding-top: 102px;
+    text-align: center;
+    margin-top: 8em;
+}
+
+.container_propos p {
+    font-family: "Imperial One", sans-serif;
+}
+
+.container_propos h2 {
+    font-family: Brightness, sans-serif;
+
+}
+/*PARAGRAPHE----------------------------------------------------------------------------------------------------------*/
+
+
+/*BANNER NAV BAR------------------------------------------------------------------------------------------------------*/
 .LOGO {
     height: 80px;
     width: 80px;
@@ -24,6 +41,7 @@ body {
     Background-color: gray;
     position: fixed;
     z-index: 1;
+    top: 0;
 }
 
 .menu{
@@ -52,33 +70,9 @@ body {
     display: flex;
     justify-content: right;
 }
+/*BANNER NAV BAR------------------------------------------------------------------------------------------------------*/
 
-
-/* HEADER NAV BAR
-------------------------------------------------------------------------------------------------------------------------*/
-
-.TITLE-D2 {
-    position: relative;
-    justify-content: center;
-    display: flex;
-    padding-top: 7em;
-    height: 10em;
-    align-items: center;
-    font-family: Brightness, sans-serif;
-
-}
-
-.TITLE-D2 h2{
-    font-size: 50px;
-    color: #111111;
-    text-decoration: underline;
-}
-
-
-
-/* ---------------------------------------------------------------------------------------------------------------------
-FOOTER */
-
+/*FOOTER--------------------------------------------------------------------------------------------------------------*/
 ul img{
     max-height: 20px;
     max-width: 20px;
@@ -92,6 +86,7 @@ footer {
     padding-bottom: 20px;
     color: gray;
     bottom: 0;
+    position: absolute;
 }
 
 .footer-container {
@@ -122,108 +117,7 @@ footer {
     text-align: center;
 }
 
-/*FOOTER --------------------------------------------------------------------------------------------------------------*/
-
-
-
-/* CARDS --------------------------------------------------------------------------------------------------------------*/
-
-
-.CONTAINER-CARDS {
-    display: flex;
-    justify-content:space-between ;
-}
-
-.CARDS {
-    position: relative;
-    width: 400px;
-    margin: 0 auto;
-    background-color: white;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
-}
-
-.CARDS-IMG {
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-}
-.CARDS-IMG img {
-    width: 100%;
-    position: absolute;
-}
-
-.CARDS-BODY {
-    text-align:center;
-    padding: 15px 20px;
-    box-sizing: border-box;
-}
-
-
-.DATE, .TITRE {
-    text-align:center;
-}
-
-.DATE, .DESCRIPTION {
-    color: black;
-}
-
-/*CAROUSEL------------------------------------------------------------------------------------------------------------*/
-.container_carousel h2 {
-    font-size: 50px;
-    margin-bottom: 50px;
-    font-family: Brightness, sans-serif;
-}
-
-.container_carousel {
-    justify-content: center;
-    display: flex;
-    height: 30em;
-    align-items: center;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    flex-direction: column;
-}
-
-.slide {
-    float: left;
-}
-
-.slides {
-    width: calc(1000px * 3);
-    animation: Glissade 10s infinite;
-}
-
-.CAROUSEL {
-    border: solid;
-    width: 500px;
-    overflow: hidden;
-    height: 281px;
-}
-
-@keyframes Glissade {
-    0% {
-        transform: translateX(0);
-    }
-    10% {
-        transform: translateX(0);
-    }
-    33% {
-        transform: translateX(-500px);
-    }
-    43% {
-        transform: translateX(-500px);
-    }
-    66% {
-        transform: translateX(-1000px);
-    }
-    73% {
-        transform: translateX(-1000px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-/*CAROUSEL------------------------------------------------------------------------------------------------------------*/
+/*FOOTER--------------------------------------------------------------------------------------------------------------*/
 
 /*FONT-FAMILY---------------------------------------------------------------------------------------------------------*/
 @font-face {
@@ -238,7 +132,6 @@ footer {
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Imperial One';
     src: url('../Assets/Font/Imperial/ImperialOne.eot');
@@ -251,4 +144,5 @@ footer {
     font-style: normal;
     font-display: swap;
 }
+
 /*---------------------------------------------------------------------------------------------------------------------*/
